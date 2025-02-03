@@ -11,7 +11,7 @@ def main():
             amountDue -= coin
 
     change = -amountDue
-    print("Change Owed: " + str(change))
+    print(f"Change Owed: {change}")
 
 
 main()
